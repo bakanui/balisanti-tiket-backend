@@ -355,6 +355,8 @@ Route::post('penumpang/update-billnumber-invoice', [PenumpangController::class, 
 
 Route::post('penumpang/update-invoice', [PenumpangController::class, 'updateInvoice']);
 
+Route::post('penumpang/update-invoice-callback', [PenumpangController::class, 'updateInvoiceCallback']);
+
 Route::get('laporan/harian_armada/detail', [DashboardController::class,'detailHarian']);
 
 Route::get('laporan/bulanan_armada/detail', [DashboardController::class,'detailBulanan']);
